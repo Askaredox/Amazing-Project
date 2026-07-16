@@ -2,6 +2,10 @@ def add(x: int, y: int) -> int:
     return x + y
 
 
+def subtract(x: int, y: int) -> int:
+    return x - y
+
+
 def main():
     print("Hello, World!")
     result = add(5, 3)
